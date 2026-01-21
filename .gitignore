@@ -1,0 +1,27 @@
+# === Python ===
+venv/
+__pycache__/
+*.pyc
+
+# === IDE ===
+.idea/
+.vscode/
+
+# === Data (NO RAW FILES) ===
+data/raw/
+data/curated/
+data/processed/images/
+data/processed/labels/
+data/synthetic/
+
+# Keep structure only
+!data/**/.gitkeep
+!data/data_summary.md
+!data/processed/data.yaml
+
+# === Experiments ===
+experiments/checkpoints/
+
+# === OS ===
+.DS_Store
+Thumbs.db

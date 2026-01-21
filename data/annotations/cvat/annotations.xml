@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1925167</id>
+      <name>1-10</name>
+      <size>10</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2026-01-12 01:10:18.254701+00:00</created>
+      <updated>2026-01-12 01:19:05.802494+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>9</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3477763</id>
+          <start>0</start>
+          <stop>9</stop>
+          <url>https://app.cvat.ai/api/jobs/3476620</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>muanai</username>
+        <email>muanaikhalifahr@gmail.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Indihome</name>
+          <color>#ffffff</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Indosat</name>
+          <color>#fdfd09</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>MyRepublic</name>
+          <color>#f70201</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Lintasarta</name>
+          <color>#4e83b5</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>CBN</name>
+          <color>#d79891</color>
+          <type>rectangle</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2026-01-12 01:32:23.161620+00:00</dumped>
+  </meta>
+  <image id="1" name="images_0001.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1403.80" ytl="2626.82" xbr="1540.78" ybr="3463.37" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1501.64" ytl="669.99" xbr="1575.02" ybr="855.89" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="images_0002.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1386.03" ytl="2635.69" xbr="1489.11" ybr="3651.99" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1303.57" ytl="62.99" xbr="1375.72" ybr="258.83" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="images_0003.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1530.47" ytl="2808.33" xbr="1728.70" ybr="4114.65" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="images_0004.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1556.46" ytl="2641.05" xbr="1722.21" ybr="3773.71" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="images_0005.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1909.31" ytl="2710.55" xbr="2006.57" ybr="3252.43" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="images_0006.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1719.42" ytl="2821.71" xbr="1913.94" ybr="3835.99" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="images_0007.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1580.48" ytl="2219.62" xbr="1747.21" ybr="3002.33" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="images_0008.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1372.82" ytl="2067.90" xbr="1524.55" ybr="2908.55" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="images_0009.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1434.33" ytl="2342.65" xbr="1561.45" ybr="3302.22" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="images_0010.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1468.05" ytl="1917.25" xbr="1683.53" ybr="2729.45" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="images_0011.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1462.50" ytl="2636.60" xbr="1628.83" ybr="3512.29" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="images_0012.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1653.30" ytl="2431.14" xbr="1804.95" ybr="3076.89" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1192.21" ytl="825.46" xbr="1244.36" ybr="932.62" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="images_0013.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1555.90" ytl="972.32" xbr="1616.10" ybr="1082.47" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1819.44" ytl="2693.54" xbr="1944.45" ybr="3258.85" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="images_0014.jpg" width="3456" height="4608">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1829.58" ytl="1229.13" xbr="1874.89" ybr="1323.89" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="images_0015.jpg" width="3072" height="4080">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1512.32" ytl="621.33" xbr="1602.46" ybr="787.00" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="images_0016.jpg" width="3072" height="4080">
+    <box label="Indosat" source="manual" occluded="0" xtl="1397.50" ytl="257.79" xbr="1457.94" ybr="360.90" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1557.49" ytl="750.22" xbr="1623.27" ybr="910.22" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="images_0017.jpg" width="3456" height="4608">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1649.54" ytl="495.13" xbr="1723.54" ybr="623.87" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1161.20" ytl="2297.56" xbr="1279.59" ybr="2985.68" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="images_0018.jpg" width="3456" height="4608">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1560.12" ytl="890.78" xbr="1662.59" ybr="1046.38" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="images_0019.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1370.25" ytl="2491.62" xbr="1509.92" ybr="3441.42" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="images_0020.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1586.01" ytl="2420.77" xbr="1732.45" ybr="3251.53" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="images_0021.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1876.60" ytl="871.69" xbr="1940.96" ybr="1056.53" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1608.08" ytl="437.10" xbr="1679.14" ybr="583.53" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="images_0022.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1407.22" ytl="2397.65" xbr="1610.75" ybr="3553.09" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="images_0023.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1405.64" ytl="872.52" xbr="1486.45" ybr="1063.91" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="images_0024.jpg" width="3072" height="4080">
+  </image>
+  <image id="25" name="images_0025.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1499.03" ytl="338.85" xbr="1552.01" ybr="485.57" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="images_0026.jpg" width="3072" height="4080">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1171.86" ytl="819.64" xbr="1232.85" ybr="930.60" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1443.02" ytl="680.02" xbr="1498.14" ybr="859.32" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1487.11" ytl="716.76" xbr="1543.70" ybr="875.49" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1668.63" ytl="880.63" xbr="1723.01" ybr="960.73" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="images_0027.jpg" width="3072" height="4080">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1415.18" ytl="418.18" xbr="1479.23" ybr="556.23" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1313.43" ytl="483.65" xbr="1371.78" ybr="662.97" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1675.43" ytl="355.08" xbr="1754.05" ybr="463.68" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="images_0028.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1814.22" ytl="685.66" xbr="1891.03" ybr="858.73" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="images_0029.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1562.07" ytl="2976.08" xbr="1768.31" ybr="3866.44" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1287.32" ytl="295.00" xbr="1372.60" ybr="462.07" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="images_0030.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="2128.72" ytl="280.35" xbr="2190.01" ybr="471.78" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="images_0031.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1530.22" ytl="216.81" xbr="1628.97" ybr="416.61" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="images_0032.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1417.69" ytl="248.96" xbr="1504.96" ybr="464.84" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="images_0033.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1765.43" ytl="898.33" xbr="1851.03" ybr="1077.30" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="images_0034.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1503.96" ytl="3108.19" xbr="1690.82" ybr="4278.79" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="images_0035.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1602.74" ytl="302.18" xbr="1690.28" ybr="539.78" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="images_0036.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1369.53" ytl="805.05" xbr="1450.95" ybr="957.30" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="images_0037.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1674.65" ytl="380.34" xbr="1762.19" ybr="577.30" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="images_0038.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1397.26" ytl="2869.63" xbr="1532.90" ybr="3722.21" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1388.96" ytl="361.70" xbr="1483.07" ybr="588.69" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="images_0039.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1648.40" ytl="229.70" xbr="1770.71" ybr="479.19" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="images_0040.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1280.54" ytl="38.40" xbr="1385.83" ybr="284.07" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="images_0041.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="2040.68" ytl="407.75" xbr="2121.55" ybr="595.10" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1110.23" ytl="2890.66" xbr="1256.60" ybr="3818.80" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1428.27" ytl="399.14" xbr="1489.86" ybr="475.58" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="images_0042.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1772.02" ytl="500.56" xbr="1855.79" ybr="713.48" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="images_0043.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1650.56" ytl="678.45" xbr="1735.73" ybr="903.20" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="images_0044.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1666.72" ytl="2724.95" xbr="1772.42" ybr="3517.00" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="images_0045.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1666.39" ytl="400.04" xbr="1736.14" ybr="586.98" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="images_0046.jpg" width="3456" height="4608">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1571.80" ytl="588.60" xbr="1621.66" ybr="662.98" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1728.94" ytl="2732.74" xbr="1875.37" ybr="3459.64" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="images_0047.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1491.27" ytl="2883.07" xbr="1619.39" ybr="3659.14" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="images_0048.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1624.02" ytl="705.41" xbr="1692.05" ybr="876.41" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="images_0049.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1374.12" ytl="2641.05" xbr="1528.83" ybr="3497.45" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="images_0050.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1760.53" ytl="335.94" xbr="1856.14" ybr="593.86" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="images_0051.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1599.09" ytl="2607.12" xbr="1757.99" ybr="3491.01" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="images_0052.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1811.74" ytl="913.72" xbr="1874.79" ybr="1090.56" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1606.71" ytl="2910.49" xbr="1729.71" ybr="3504.98" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="images_0053.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1404.79" ytl="545.32" xbr="1495.65" ybr="780.50" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1679.78" ytl="2879.06" xbr="1814.15" ybr="3634.90" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="images_0054.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1551.67" ytl="327.93" xbr="1654.93" ybr="563.15" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="images_0055.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1535.58" ytl="319.21" xbr="1612.16" ybr="511.57" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1249.70" ytl="2578.97" xbr="1395.83" ybr="3393.53" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="images_0056.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1516.32" ytl="2729.55" xbr="1667.97" ybr="3336.17" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="images_0057.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1462.53" ytl="2851.00" xbr="1622.76" ybr="3828.96" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1851.21" ytl="298.27" xbr="1934.57" ybr="492.18" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="images_0058.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1358.16" ytl="2601.02" xbr="1586.88" ybr="3783.53" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1921.12" ytl="243.12" xbr="2042.67" ybr="519.38" z_order="0">
+    </box>
+  </image>
+  <image id="59" name="images_0059.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1452.72" ytl="572.14" xbr="1555.45" ybr="806.96" z_order="0">
+    </box>
+  </image>
+  <image id="60" name="images_0060.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1655.91" ytl="176.82" xbr="1771.94" ybr="442.03" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1843.76" ytl="2602.37" xbr="2020.57" ybr="3569.28" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="images_0061.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1428.26" ytl="356.89" xbr="1530.99" ybr="596.60" z_order="0">
+    </box>
+  </image>
+  <image id="62" name="images_0062.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1617.61" ytl="348.13" xbr="1707.65" ybr="594.54" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1356.99" ytl="2537.39" xbr="1513.36" ybr="3191.32" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1565.50" ytl="460.37" xbr="1629.54" ybr="564.65" z_order="0">
+    </box>
+  </image>
+  <image id="63" name="images_0063.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1558.02" ytl="1004.98" xbr="1610.78" ybr="1098.53" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1645.24" ytl="893.83" xbr="1709.26" ybr="1068.29" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1467.26" ytl="2803.08" xbr="1563.13" ybr="3374.31" z_order="0">
+    </box>
+  </image>
+  <image id="64" name="images_0064.jpg" width="3456" height="4608">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1745.84" ytl="762.12" xbr="1813.66" ybr="860.34" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1414.51" ytl="605.36" xbr="1505.17" ybr="807.08" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="images_0065.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1202.47" ytl="574.29" xbr="1284.62" ybr="775.27" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1551.62" ytl="713.66" xbr="1623.51" ybr="814.88" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="images_0066.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1323.12" ytl="449.75" xbr="1391.45" ybr="554.12" z_order="0">
+    </box>
+  </image>
+  <image id="67" name="images_0067.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1356.48" ytl="546.79" xbr="1422.89" ybr="671.08" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1589.88" ytl="557.23" xbr="1658.19" ybr="746.98" z_order="0">
+    </box>
+  </image>
+  <image id="68" name="images_0068.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1733.99" ytl="85.37" xbr="1820.81" ybr="296.41" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1440.14" ytl="177.53" xbr="1506.92" ybr="304.42" z_order="0">
+    </box>
+  </image>
+  <image id="69" name="images_0069.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1270.48" ytl="703.30" xbr="1322.22" ybr="799.07" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1364.05" ytl="497.43" xbr="1434.51" ybr="660.36" z_order="0">
+    </box>
+  </image>
+  <image id="70" name="images_0070.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1455.84" ytl="518.05" xbr="1543.68" ybr="734.13" z_order="0">
+    </box>
+  </image>
+  <image id="71" name="images_0071.jpg" width="3072" height="4080">
+  </image>
+  <image id="72" name="images_0072.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1785.22" ytl="566.04" xbr="1843.61" ybr="673.61" z_order="0">
+    </box>
+  </image>
+  <image id="73" name="images_0073.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1299.72" ytl="603.22" xbr="1366.63" ybr="777.64" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1618.95" ytl="771.06" xbr="1669.41" ybr="867.60" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1224.06" ytl="2500.25" xbr="1356.76" ybr="3276.05" z_order="0">
+    </box>
+  </image>
+  <image id="74" name="images_0074.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1165.43" ytl="323.80" xbr="1261.05" ybr="524.06" z_order="0">
+    </box>
+  </image>
+  <image id="75" name="images_0075.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1248.20" ytl="248.11" xbr="1324.17" ybr="454.17" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1390.64" ytl="328.82" xbr="1461.86" ybr="462.71" z_order="0">
+    </box>
+  </image>
+  <image id="76" name="images_0076.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1377.52" ytl="641.59" xbr="1443.68" ybr="817.10" z_order="0">
+    </box>
+  </image>
+  <image id="77" name="images_0077.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1850.17" ytl="327.10" xbr="1921.71" ybr="539.30" z_order="0">
+    </box>
+  </image>
+  <image id="78" name="images_0078.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1248.49" ytl="405.78" xbr="1322.21" ybr="604.16" z_order="0">
+    </box>
+  </image>
+  <image id="79" name="images_0079.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1190.65" ytl="383.59" xbr="1273.00" ybr="595.04" z_order="0">
+    </box>
+  </image>
+  <image id="80" name="images_0080.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1169.63" ytl="227.30" xbr="1240.72" ybr="352.66" z_order="0">
+    </box>
+  </image>
+  <image id="81" name="images_0081.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1619.05" ytl="542.79" xbr="1736.46" ybr="816.75" z_order="0">
+    </box>
+  </image>
+  <image id="82" name="images_0082.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1374.95" ytl="303.98" xbr="1463.48" ybr="463.91" z_order="0">
+    </box>
+  </image>
+  <image id="83" name="images_0083.jpg" width="3000" height="4000">
+    <box label="Indihome" source="manual" occluded="0" xtl="1622.19" ytl="2252.17" xbr="1745.38" ybr="3033.34" z_order="0">
+    </box>
+  </image>
+  <image id="84" name="images_0084.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1202.04" ytl="253.60" xbr="1318.19" ybr="514.35" z_order="0">
+    </box>
+  </image>
+  <image id="85" name="images_0085.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1237.59" ytl="642.36" xbr="1320.56" ybr="834.37" z_order="0">
+    </box>
+  </image>
+  <image id="86" name="images_0086.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1306.34" ytl="613.92" xbr="1386.94" ybr="801.19" z_order="0">
+    </box>
+  </image>
+  <image id="87" name="images_0087.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1287.62" ytl="295.14" xbr="1356.14" ybr="404.58" z_order="0">
+    </box>
+  </image>
+  <image id="88" name="images_0088.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1478.39" ytl="154.96" xbr="1538.54" ybr="328.61" z_order="0">
+    </box>
+  </image>
+  <image id="89" name="images_0089.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1703.11" ytl="163.25" xbr="1779.97" ybr="352.15" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1278.41" ytl="335.21" xbr="1337.03" ybr="421.19" z_order="0">
+    </box>
+  </image>
+  <image id="90" name="images_0090.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1538.35" ytl="2598.90" xbr="1756.95" ybr="3416.73" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1235.21" ytl="628.71" xbr="1320.58" ybr="813.06" z_order="0">
+    </box>
+  </image>
+  <image id="91" name="images_0091.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1325.70" ytl="2470.45" xbr="1475.53" ybr="3210.66" z_order="0">
+    </box>
+  </image>
+  <image id="92" name="images_0092.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1497.59" ytl="2278.77" xbr="1618.57" ybr="2988.72" z_order="0">
+    </box>
+  </image>
+  <image id="93" name="images_0093.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1743.70" ytl="517.62" xbr="1827.01" ybr="766.08" z_order="0">
+    </box>
+  </image>
+  <image id="94" name="images_0094.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1875.83" ytl="138.49" xbr="1966.26" ybr="389.37" z_order="0">
+    </box>
+  </image>
+  <image id="95" name="images_0095.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1249.97" ytl="328.59" xbr="1342.59" ybr="541.27" z_order="0">
+    </box>
+  </image>
+  <image id="96" name="images_0096.jpg" width="3000" height="4000">
+    <box label="Indihome" source="manual" occluded="0" xtl="1398.35" ytl="2178.97" xbr="1528.79" ybr="2775.28" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1573.92" ytl="350.60" xbr="1624.54" ybr="423.95" z_order="0">
+    </box>
+  </image>
+  <image id="97" name="images_0097.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1344.28" ytl="666.48" xbr="1412.75" ybr="822.28" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1250.17" ytl="2579.79" xbr="1387.32" ybr="3194.44" z_order="0">
+    </box>
+  </image>
+  <image id="98" name="images_0098.jpg" width="3000" height="4000">
+    <box label="Indihome" source="manual" occluded="0" xtl="1598.66" ytl="2372.89" xbr="1716.50" ybr="3058.48" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1780.74" ytl="374.20" xbr="1838.65" ybr="451.86" z_order="0">
+    </box>
+  </image>
+  <image id="99" name="images_0099.jpg" width="3000" height="4000">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1725.79" ytl="389.94" xbr="1791.36" ybr="538.75" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1478.62" ytl="79.72" xbr="1558.07" ybr="281.49" z_order="0">
+    </box>
+  </image>
+  <image id="100" name="images_0100.jpg" width="3000" height="4000">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1356.41" ytl="511.91" xbr="1419.47" ybr="640.12" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1668.53" ytl="221.86" xbr="1764.16" ybr="440.45" z_order="0">
+    </box>
+  </image>
+  <image id="101" name="images_0101.jpg" width="3000" height="4000">
+    <box label="CBN" source="manual" occluded="0" xtl="1476.93" ytl="73.35" xbr="1568.49" ybr="297.91" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1727.64" ytl="389.47" xbr="1793.05" ybr="548.62" z_order="0">
+    </box>
+  </image>
+  <image id="102" name="images_0102.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1427.27" ytl="296.14" xbr="1508.22" ybr="526.18" z_order="0">
+    </box>
+  </image>
+  <image id="103" name="images_0103.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1580.89" ytl="692.02" xbr="1664.17" ybr="897.86" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1494.47" ytl="685.74" xbr="1585.61" ybr="945.00" z_order="0">
+    </box>
+  </image>
+  <image id="104" name="images_0104.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1213.74" ytl="454.32" xbr="1297.57" ybr="662.95" z_order="0">
+    </box>
+  </image>
+  <image id="105" name="images_0105.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1165.31" ytl="653.63" xbr="1215.61" ybr="763.53" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1418.64" ytl="743.04" xbr="1474.52" ybr="933.04" z_order="0">
+    </box>
+  </image>
+  <image id="106" name="images_0106.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1680.16" ytl="605.46" xbr="1791.28" ybr="854.27" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1366.14" ytl="871.18" xbr="1445.85" ybr="1088.58" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1055.78" ytl="3280.87" xbr="1185.79" ybr="4068.16" z_order="0">
+    </box>
+  </image>
+  <image id="107" name="images_0107.jpg" width="3072" height="4080">
+    <box label="Indosat" source="manual" occluded="0" xtl="1392.22" ytl="435.79" xbr="1465.15" ybr="655.82" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1207.40" ytl="416.93" xbr="1265.24" ybr="523.80" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1386.76" ytl="2779.69" xbr="1547.20" ybr="3632.72" z_order="0">
+    </box>
+  </image>
+  <image id="108" name="images_0108.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1253.32" ytl="482.99" xbr="1317.10" ybr="609.39" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1312.46" ytl="269.62" xbr="1391.32" ybr="508.50" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1357.86" ytl="2516.81" xbr="1490.30" ybr="3286.06" z_order="0">
+    </box>
+  </image>
+  <image id="109" name="images_0109.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1341.28" ytl="2734.25" xbr="1466.09" ybr="3480.15" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1241.15" ytl="684.56" xbr="1291.91" ybr="774.97" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1432.29" ytl="580.67" xbr="1498.11" ybr="794.01" z_order="0">
+    </box>
+  </image>
+  <image id="110" name="images_0110.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1425.22" ytl="2478.27" xbr="1547.06" ybr="3117.91" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1578.97" ytl="230.97" xbr="1649.98" ybr="469.23" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1725.67" ytl="318.80" xbr="1789.20" ybr="430.92" z_order="0">
+    </box>
+  </image>
+  <image id="111" name="images_0111.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1209.47" ytl="566.41" xbr="1270.56" ybr="660.97" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1252.15" ytl="449.26" xbr="1324.11" ybr="655.95" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1087.68" ytl="2708.14" xbr="1242.00" ybr="3484.69" z_order="0">
+    </box>
+  </image>
+  <image id="112" name="images_0112.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1801.62" ytl="1586.40" xbr="1848.08" ybr="1652.15" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1297.59" ytl="504.71" xbr="1385.35" ybr="701.81" z_order="0">
+    </box>
+  </image>
+  <image id="113" name="images_0113.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1803.98" ytl="365.40" xbr="1886.81" ybr="569.90" z_order="0">
+    </box>
+  </image>
+  <image id="114" name="images_0114.jpg" width="3456" height="4608">
+    <box label="CBN" source="manual" occluded="0" xtl="1559.32" ytl="195.48" xbr="1660.04" ybr="442.07" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1959.15" ytl="2539.75" xbr="2117.19" ybr="3271.74" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1784.99" ytl="319.03" xbr="1840.61" ybr="401.43" z_order="0">
+    </box>
+  </image>
+  <image id="115" name="images_0115.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1453.94" ytl="271.47" xbr="1525.78" ybr="478.85" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1533.91" ytl="256.56" xbr="1603.04" ybr="373.13" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1603.97" ytl="2666.73" xbr="1736.74" ybr="3548.91" z_order="0">
+    </box>
+  </image>
+  <image id="116" name="images_0116.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1138.84" ytl="199.96" xbr="1202.48" ybr="299.45" z_order="0">
+    </box>
+  </image>
+  <image id="117" name="images_0117.jpg" width="3456" height="4608">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1478.23" ytl="12.51" xbr="1558.80" ybr="155.39" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1632.15" ytl="2768.84" xbr="1809.87" ybr="3756.53" z_order="0">
+    </box>
+  </image>
+  <image id="118" name="images_0118.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1609.68" ytl="96.59" xbr="1683.74" ybr="292.32" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1487.02" ytl="2369.97" xbr="1610.21" ybr="2989.47" z_order="0">
+    </box>
+  </image>
+  <image id="119" name="images_0119.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1365.73" ytl="2605.87" xbr="1488.86" ybr="3265.67" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1579.62" ytl="463.13" xbr="1660.45" ybr="647.18" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1712.68" ytl="588.73" xbr="1767.40" ybr="686.97" z_order="0">
+    </box>
+  </image>
+  <image id="120" name="images_0120.jpg" width="3456" height="4608">
+    <box label="Indihome" source="manual" occluded="0" xtl="1636.42" ytl="2849.33" xbr="1771.27" ybr="3587.54" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1768.38" ytl="594.97" xbr="1841.55" ybr="779.41" z_order="0">
+    </box>
+  </image>
+  <image id="121" name="images_0121.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1543.60" ytl="197.21" xbr="1669.89" ybr="443.51" z_order="0">
+    </box>
+  </image>
+  <image id="122" name="images_0122.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1418.96" ytl="343.22" xbr="1498.51" ybr="446.28" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1243.59" ytl="477.01" xbr="1341.22" ybr="668.66" z_order="0">
+    </box>
+  </image>
+  <image id="123" name="images_0123.jpg" width="3072" height="4080">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1330.06" ytl="539.94" xbr="1416.25" ybr="665.09" z_order="0">
+    </box>
+  </image>
+  <image id="124" name="images_0124.jpg" width="3072" height="4080">
+    <box label="Lintasarta" source="manual" occluded="0" xtl="1507.13" ytl="197.48" xbr="1608.84" ybr="358.72" z_order="0">
+    </box>
+  </image>
+  <image id="125" name="images_0125.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1179.79" ytl="2792.07" xbr="1352.72" ybr="3573.28" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1701.33" ytl="390.82" xbr="1782.87" ybr="667.28" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1906.90" ytl="335.89" xbr="1997.28" ybr="566.27" z_order="0">
+    </box>
+  </image>
+  <image id="125" name="images_0126.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1448.19" ytl="887.37" xbr="1525.88" ybr="1062.82" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1387.96" ytl="814.92" xbr="1469.14" ybr="1054.96" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1059.91" ytl="3045.48" xbr="1304.38" ybr="3940.23" z_order="0">
+    </box>
+  </image>
+  <image id="127" name="images_0127.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1146.41" ytl="886.69" xbr="1251.68" ybr="1085.77" z_order="0">
+    </box>
+  </image>
+  <image id="128" name="images_0128.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1393.40" ytl="684.06" xbr="1491.59" ybr="844.75" z_order="0">
+    </box>
+  </image>
+  <image id="129" name="images_0129.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1427.46" ytl="723.82" xbr="1503.30" ybr="860.97" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1529.11" ytl="535.04" xbr="1588.80" ybr="754.48" z_order="0">
+    </box>
+  </image>
+  <image id="130" name="images_0130.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1503.30" ytl="610.87" xbr="1592.04" ybr="839.99" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1430.69" ytl="780.29" xbr="1519.43" ybr="935.19" z_order="0">
+    </box>
+  </image>
+  <image id="131" name="images_0131.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1377.18" ytl="264.30" xbr="1452.70" ybr="379.51" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1290.14" ytl="85.09" xbr="1373.34" ybr="291.18" z_order="0">
+    </box>
+  </image>
+  <image id="132" name="images_0132.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1179.97" ytl="288.53" xbr="1267.66" ybr="502.49" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1262.40" ytl="325.36" xbr="1344.83" ybr="474.43" z_order="0">
+    </box>
+  </image>
+  <image id="133" name="images_0133.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1590.80" ytl="420.97" xbr="1685.39" ybr="626.13" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1799.96" ytl="350.36" xbr="1882.56" ybr="475.59" z_order="0">
+    </box>
+  </image>
+  <image id="134" name="images_0134.jpg" width="3072" height="4080">
+    <box label="Indosat" source="manual" occluded="0" xtl="1629.33" ytl="799.09" xbr="1696.43" ybr="913.67" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1293.85" ytl="918.83" xbr="1366.11" ybr="1065.41" z_order="0">
+    </box>
+  </image>
+  <image id="135" name="images_0135.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1702.11" ytl="1182.88" xbr="1771.85" ybr="1339.26" z_order="0">
+    </box>
+  </image>
+  <image id="136" name="images_0136.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1314.66" ytl="1047.18" xbr="1393.81" ybr="1235.03" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1422.42" ytl="885.07" xbr="1503.47" ybr="1004.27" z_order="0">
+    </box>
+  </image>
+  <image id="137" name="images_0137.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1646.73" ytl="2676.65" xbr="1878.11" ybr="3602.17" z_order="0">
+    </box>
+  </image>
+  <image id="138" name="images_0138.jpg" width="3072" height="4080">
+    <box label="Indosat" source="manual" occluded="0" xtl="1470.15" ytl="997.08" xbr="1527.53" ybr="1087.94" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1556.23" ytl="1196.73" xbr="1619.59" ybr="1348.56" z_order="0">
+    </box>
+  </image>
+  <image id="139" name="images_0139.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1889.78" ytl="999.47" xbr="1950.75" ybr="1156.08" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1296.69" ytl="588.66" xbr="1368.71" ybr="704.36" z_order="0">
+    </box>
+  </image>
+  <image id="140" name="images_0140.jpg" width="3072" height="4080">
+    <box label="Indosat" source="manual" occluded="0" xtl="1481.28" ytl="1078.32" xbr="1534.84" ybr="1192.63" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1556.54" ytl="469.91" xbr="1621.42" ybr="623.65" z_order="0">
+    </box>
+  </image>
+  <image id="141" name="images_0141.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1228.81" ytl="1162.96" xbr="1298.84" ybr="1309.07" z_order="0">
+    </box>
+  </image>
+  <image id="142" name="images_0142.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1096.16" ytl="413.45" xbr="1185.93" ybr="624.48" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1467.83" ytl="567.79" xbr="1545.00" ybr="692.20" z_order="0">
+    </box>
+  </image>
+  <image id="143" name="images_0143.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1052.06" ytl="687.48" xbr="1135.53" ybr="846.54" z_order="0">
+    </box>
+  </image>
+  <image id="144" name="images_0144.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1179.00" ytl="516.08" xbr="1249.23" ybr="687.95" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1221.51" ytl="471.72" xbr="1289.89" ybr="623.27" z_order="0">
+    </box>
+  </image>
+  <image id="145" name="images_0145.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1385.81" ytl="741.73" xbr="1458.12" ybr="913.78" z_order="0">
+    </box>
+  </image>
+  <image id="146" name="images_0146.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1394.72" ytl="1179.29" xbr="1462.97" ybr="1263.82" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1613.42" ytl="1231.24" xbr="1688.64" ybr="1389.45" z_order="0">
+    </box>
+  </image>
+  <image id="147" name="images_0147.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1306.21" ytl="150.72" xbr="1409.07" ybr="329.26" z_order="0">
+    </box>
+  </image>
+  <image id="148" name="images_0148.jpg" width="3072" height="4080">
+    <box label="Indosat" source="manual" occluded="0" xtl="1064.58" ytl="686.65" xbr="1129.64" ybr="798.18" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1346.90" ytl="564.66" xbr="1406.16" ybr="657.61" z_order="0">
+    </box>
+  </image>
+  <image id="149" name="images_0149.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1360.28" ytl="922.48" xbr="1415.54" ybr="1065.46" z_order="0">
+    </box>
+  </image>
+  <image id="150" name="images_0150.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1079.49" ytl="3177.10" xbr="1279.78" ybr="4057.17" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1074.89" ytl="426.32" xbr="1150.52" ybr="514.15" z_order="0">
+    </box>
+  </image>
+  <image id="151" name="images_0151.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1305.98" ytl="639.70" xbr="1372.11" ybr="802.15" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1218.08" ytl="516.53" xbr="1280.30" ybr="633.20" z_order="0">
+    </box>
+  </image>
+  <image id="152" name="images_0152.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="839.27" ytl="2528.68" xbr="946.13" ybr="3006.60" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="895.83" ytl="2585.19" xbr="1189.26" ybr="3025.34" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1456.91" ytl="1172.07" xbr="1513.48" ybr="1286.07" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1559.26" ytl="1158.97" xbr="1595.45" ybr="1219.51" z_order="0">
+    </box>
+    <box label="Indosat" source="manual" occluded="0" xtl="1282.33" ytl="744.46" xbr="1321.09" ybr="801.04" z_order="0">
+    </box>
+  </image>
+  <image id="153" name="images_0153.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1456.91" ytl="979.08" xbr="1508.15" ybr="1097.12" z_order="0">
+    </box>
+  </image>
+  <image id="154" name="images_0154.jpg" width="3072" height="4080">
+    <box label="CBN" source="manual" occluded="0" xtl="1517.83" ytl="746.01" xbr="1580.99" ybr="936.20" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1419.10" ytl="884.66" xbr="1472.10" ybr="980.49" z_order="0">
+    </box>
+  </image>
+  <image id="155" name="images_0155.jpg" width="3072" height="4080">
+    <box label="Indihome" source="manual" occluded="0" xtl="1600.84" ytl="2749.97" xbr="1701.60" ybr="3253.79" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1484.03" ytl="674.75" xbr="1548.33" ybr="818.11" z_order="0">
+    </box>
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1385.85" ytl="732.96" xbr="1441.46" ybr="832.02" z_order="0">
+    </box>
+  </image>
+  <image id="156" name="images_0156.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1242.41" ytl="830.74" xbr="1323.87" ybr="945.09" z_order="0">
+    </box>
+    <box label="CBN" source="manual" occluded="0" xtl="1522.81" ytl="760.24" xbr="1607.40" ybr="930.99" z_order="0">
+    </box>
+    <box label="Indihome" source="manual" occluded="0" xtl="1064.04" ytl="2498.88" xbr="1307.30" ybr="3062.95" z_order="0">
+    </box>
+  </image>
+  <image id="157" name="images_0157.jpg" width="3072" height="4080">
+    <box label="MyRepublic" source="manual" occluded="0" xtl="1277.68" ytl="705.92" xbr="1347.39" ybr="850.92" z_order="0">
+    </box>
+  </image>
+</annotations>

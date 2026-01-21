@@ -1,0 +1,9 @@
+names:
+  0: Indihome
+  1: Indosat
+  2: MyRepublic
+  3: Lintasarta
+  4: CBN
+path: /kaggle/input/telecomunication-provider-infrastructure-synthetic
+train: images/train
+val: images/val
