@@ -25,3 +25,21 @@ experiments/checkpoints/
 # === OS ===
 .DS_Store
 Thumbs.db
+
+# === DEPLOYMENT MODULE ===
+# Ignore environment khusus deployment
+deployment/app_env/
+
+# Ignore heavy assets di folder deployment
+deployment/map/
+deployment/*.pt
+deployment/*.onnx
+
+# Ignore output files
+deployment/*.csv
+deployment/*.log
+
+# Ignore PyInstaller builds (jika nanti kamu generate exe)
+deployment/build/
+deployment/dist/
+deployment/*.spec
