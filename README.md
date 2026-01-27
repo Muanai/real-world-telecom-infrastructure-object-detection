@@ -3,7 +3,7 @@
 ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-orange)
 ![Computer Vision](https://img.shields.io/badge/Task-Object%20Detection-green)
 ![Business Analytics](https://img.shields.io/badge/Domain-Business%20Analytics-purple)
-
+![Status](https://img.shields.io/badge/Status-Deployment%20Ready-success)
 
 ****Telkomsel Internship Project – Business Growth & Analytics Division****
 
@@ -58,14 +58,12 @@ Build and evaluate an object detection pipeline capable of:
 
 ## Project Status
 
-> **Active Development (Internship Phase)**
->
-> - Multiple YOLOv8 experiment iterations completed
-> - Data imbalance mitigation explored (augmentation & synthetic data)
-> - High-resolution inference validated
-> - Training currently notebook-based (`.ipynb`)
-> - Refactoring to reproducible `.py` scripts is planned
-> - Inference tooling for analyst-facing output is in design
+## Project Status
+
+> **Deployment Ready & Analytic Integration**
+> - **Training Pipeline**: Refactored from experimental notebooks into modular, reproducible `.py` scripts.
+> - **Inference Engine**: Fully operational with automated EXIF metadata extraction.
+> - **Geo-Spatial Integration**: Implemented custom reverse-geocoding to map detection locations to **Kecamatan (Sub-district)** utilizing BPS (Statistics Indonesia) SHP files.
 
 ---
 
@@ -83,22 +81,26 @@ Build and evaluate an object detection pipeline capable of:
 
 ```text
 .
-├── data/
+├── data/                   # Dataset management & versioning
 │   ├── raw/                # Original collected images
-│   ├── processed/          # YOLO-formatted datasets
-│   └── synthetic/          # Synthetic samples (training only)
+│   ├── processed/          # YOLO-formatted datasets ready for training
+│   ├── synthetic/          # Generated synthetic data for augmentation
+│   └── data_summary.md     # Documentation on class balance & constraints
 │
-├── experiments/
-│   ├── notebooks/          # Training & analysis notebooks
-│   └── logs/               # experiment_logs.md
+├── deployment/             # Standalone Inference Application
+│   ├── map/                # BPS Shapefiles (.shp) for Reverse Geocoding
+│   ├── app.py              # Main entry point for the detection tool
+│   ├── best.pt             # Optimized Production Model Weights
+│   └── requirements.txt    # Dependencies specific for deployment
 │
-├── scripts/                # (WIP) Reproducible training & inference scripts
+├── experiments/            # R&D Archives
+│   ├── notebooks/          # Exploratory analysis & prototyping
+│   └── experiments_log.md  # Chronological log of model iterations
 │
-├── models/
-│   └── provider_yolov8s_v2.1.pt
+├── scripts/                # MLOps Pipelines
+│   ├── train.py            # Refactored, reproducible training script
+│   └── data/               # Data preprocessing & conversion utilities
 │
-├── data_summary.md         # Dataset structure & limitations
-├── experiment_logs.md      # Versioned experiment history
 └── README.md
 ```
 
@@ -127,19 +129,26 @@ This includes:
 
 ---
 
-## Planned Extensions
-The following components are planned for analytical usability:
-* Conversion of final training pipeline into `.py` scripts 
-* Deterministic, config-driven training 
-* Inference pipeline that:
-  * Accepts image input 
-  * Extracts GPS metadata (EXIF)
-  * Outputs structured CSV:
-  * provider_class 
-  * confidence 
-  * latitude 
-  * longitude
-* Optional executable packaging for non-technical analysts
+
+## Deployment & Geo-Analytics Module## Deployment & Geo-Analytics
+The `deployment/` directory contains a self-sufficient tool designed for analysts to process field data locally.
+
+**Features:**
+* **Offline Mapping**: Uses vector maps stored in `deployment/map/` to overlay detection points with administrative boundaries (Kecamatan/Kabupaten).
+* **Automated Reporting**: 
+  1. Reads images from source folder.
+  2. Detects objects using `best.pt`.
+  3. Extracts EXIF Metadata (Lat/Long).
+  4. Generates a consolidated CSV report.
+
+**How to Run:**
+```bash
+# Install deployment dependencies
+pip install -r deployment/requirements.txt
+
+# Run the analyzer
+python deployment/app.py
+````
 
 ---
 
