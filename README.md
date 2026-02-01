@@ -3,7 +3,7 @@
 ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-orange)
 ![Computer Vision](https://img.shields.io/badge/Task-Object%20Detection-green)
 ![Business Analytics](https://img.shields.io/badge/Domain-Business%20Analytics-purple)
-![Status](https://img.shields.io/badge/Status-Deployment%20Ready-success)
+![Status](https://img.shields.io/badge/Status-Pilot%20Ready%20Prototype-success)
 
 ****Telkomsel Internship Project – Business Growth & Analytics Division****
 
@@ -34,7 +34,7 @@ Understanding competitor infrastructure presence at the regional level is critic
 - Infrastructure expansion prioritization
 - Field validation support
 
-Manual surveys are slow, costly, and inconsistent.
+Manual surveys are slow and costly.
 
 This project explores whether **computer vision–based object detection** can assist analysts
 in identifying and quantifying **telecom provider infrastructure** from street-level imagery
@@ -55,15 +55,13 @@ Build and evaluate an object detection pipeline capable of:
 
 ---
 
-
 ## Project Status
 
-## Project Status
-
-> **Deployment Ready & Analytic Integration**
+> **Functional MVP & Analytic Integration**
 > - **Training Pipeline**: Refactored from experimental notebooks into modular, reproducible `.py` scripts.
 > - **Inference Engine**: Fully operational with automated EXIF metadata extraction.
 > - **Geo-Spatial Integration**: Implemented custom reverse-geocoding to map detection locations to **Kecamatan (Sub-district)** utilizing BPS (Statistics Indonesia) SHP files.
+> - **Known Limitation**: While the pipeline is functional, current model performance may vary under extreme lighting conditions or severe occlusion. Human-in-the-loop verification is recommended for critical decision-making.
 
 ---
 
@@ -130,7 +128,7 @@ This includes:
 ---
 
 
-## Deployment & Geo-Analytics Module## Deployment & Geo-Analytics
+## Deployment & Geo-Analytics Module
 The `deployment/` directory contains a self-sufficient tool designed for analysts to process field data locally.
 
 **Features:**
@@ -148,7 +146,7 @@ pip install -r deployment/requirements.txt
 
 # Run the analyzer
 python deployment/app.py
-````
+```
 
 ---
 

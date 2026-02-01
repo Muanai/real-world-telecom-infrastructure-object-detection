@@ -4,7 +4,7 @@ import yaml
 from pathlib import Path
 from ultralytics import YOLO, settings
 
-# --- PATH SETUP ---
+# PATH SETUP
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[1]
 if str(ROOT) not in sys.path:
@@ -36,7 +36,7 @@ def train(args):
     # Load Model
     model = YOLO(args.model)
 
-    # Direktori Output
+    # Output Directory
     project_dir = ROOT / 'experiments'
 
     print("\n Training Start with Specific Augmentations...")
@@ -55,21 +55,21 @@ def train(args):
         exist_ok=True,
         patience=args.patience,
 
-        # --- AUGMENTATION SETTINGS (The Secret Sauce) ---
-        hsv_h=0.015,  # HUE: Sedikit variasi, merah tetap merah
-        hsv_s=0.7,  # SATURATION: Simulasi pudar/karat
-        hsv_v=0.4,  # VALUE: Simulasi cahaya (terik/mendung)
-        degrees=5.0,  # ROTASI: Miring sedikit
-        translate=0.1,  # GESER
-        scale=0.5,  # SCALE: Penting untuk deteksi objek jauh/dekat
-        shear=0.0,  # SHEAR: Jarang diperlukan untuk tiang
+        # AUGMENTATION SETTINGS
+        hsv_h=0.015,
+        hsv_s=0.7,
+        hsv_v=0.4,
+        degrees=5.0,
+        translate=0.1,
+        scale=0.5,
+        shear=0.0,
         perspective=0.0,
-        flipud=0.0,  # FLIP UP-DOWN: False (tiang tidak mungkin terbalik)
-        fliplr=0.5,  # FLIP LEFT-RIGHT: True
-        mosaic=args.mosaic,  # Default 0.5
+        flipud=0.0,
+        fliplr=0.5,
+        mosaic=args.mosaic,
         mixup=0.1,
         copy_paste=0.1,
-        erasing=0.4,  # ERASING: Simulasi tertutup poster/pohon
+        erasing=0.4,
 
         # System
         optimizer='auto',
@@ -83,7 +83,7 @@ def train(args):
     print("\n Running Validation on the Best Model...")
     metrics = model.val(
         data=str(data_path),
-        augment=True
+        augment=False
     )
 
     print(f"\n Validation Result:")
